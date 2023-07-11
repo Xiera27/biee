@@ -301,8 +301,7 @@ echo -e "$green       Install Limit Xray               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget -qO /tmp/limit.sh "https://raw.githubusercontent.com/nilaa27/sayang/main/limit/limit.sh" >/dev/null 2>&1
-    chmod +x /tmp/limit.sh && bash /tmp/limit.sh >/dev/null 2>&1
+wget https://raw.githubusercontent.com/nilaa27/sayang/main/limit/limit.sh;chmod +x limit.sh;./limit.sh
 sleep 3
 clear
 # > pasang gotop
@@ -350,7 +349,7 @@ curl -sS ifconfig.me > /etc/myipvps
     
     function finish(){
     TEXT="
-<u>🌀INFO INSTALL SC🌀</u>
+<u>⚙️INFO INSTALL SC⚙️</u>
 <code>TIME      : </code><code>${TIME}</code>
 <code>IPVPS     : </code><code>${MYIP}</code>
 <code>DOMAIN    : </code><code>${domain}</code>
